@@ -17,7 +17,7 @@ function obterResposta(pergunta) {
 function namorada() {
     console.log('N: Apagar as luzes...')
     console.log('N: Pedir silêncio...')
-    console.log('N: Surpresa!!!!')
+    console.log('N: Surpresa  *!')
 }
 
 // Observer
@@ -45,4 +45,4 @@ async function porteiro(interessados) {
     Os observadores são: namorada e sindico
     O subject é o porteiro!
 */
-porteiro([namorada, sindico]) 
+porteiro([namorada, sindico])  
